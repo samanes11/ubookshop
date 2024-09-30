@@ -35,8 +35,8 @@ export const Block = props => {
 
 
                 <img src={props.state.cart.includes(props.book.title) ? 
-                "https://cdn.turing.team/qepal/ok.svg" : 
-                "https://cdn.turing.team/qepal/cart.svg"} 
+                "https://cdn.ituring.ir/qepal/ok.svg" : 
+                "https://cdn.ituring.ir/qepal/cart.svg"} 
                 style={{height:30, width:30, objectFit:"contain", margin:"0 10px"}}/>
                 
 

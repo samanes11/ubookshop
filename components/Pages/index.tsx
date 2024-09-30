@@ -142,7 +142,7 @@ export async function getServerSideProps(context) {
   let books = await global.db.collection("books").find({}).toArray()
 
   for (let book of books) {
-    book.imageLink = "https://irmapserver.ir/research/ex/books/" + book.imageLink
+    book.imageLink = "https://cdn.ituring.ir/research/ex/books/" + book.imageLink
   }
 
   console.log(books)
